@@ -1,0 +1,160 @@
+/* Sarthak Bhagat
+Prof Wenjin Zhou
+GUI1 Programming-Assignment #3
+Date- 09/29/2020
+Style a Site with External css
+*/
+header,
+hgroup,
+nav,
+footer,
+figure,
+figcaption,
+aside,
+section,
+article {
+  display: block;
+}
+
+/* The wrapper applies changes to the entire page
+Min width and width are the same provided by
+the instructor which narrows down the page size*/
+#wrapper {
+  width: 80%;
+  min-width: 600px;
+  background-color: #87CEFA;
+  margin: 0 auto;
+}
+
+/* The header is the top part of the body.It was used to create sunset in
+    the heading Here we display an sunset background with no repeatition making sure it fits the whole image */
+header {
+  background-image: url("sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+/*This is the main body of the website*/
+body {
+  background: #00569f url("ptrbackground.jpg");
+  background-repeat: repeat-x;
+  background-position: left-top;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+  margin-left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+}
+
+/*This was used to create lists and apply stylings
+    Underline and bullets were deleted by the list style- none
+    and text decoration to none stylings. */
+nav ul {
+  font-size: 1.2em;
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  margin: 0px;
+  padding: 25px;
+}
+
+/* This make effects on the references or the href tag of the html body*/
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #191970;
+}
+
+/* This makes the visited hyperlink in the nav bar to the color speicfied */
+nav a:visited {
+  color: #344873;
+}
+
+/* As the name suggests, it will chnage color when hover over the nav bar's hyperlinks*/
+nav a:hover {
+  color: white;
+}
+
+h1 {
+  margin-bottom: 0;
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+  color: #3399CC;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-left: 40px;
+  font-size: 140%;
+}
+
+dt {
+  color: #000033;
+}
+
+/* This was used to get the coast image on the page.
+Padding is applied in front and back of image to make
+it look similar to the Assignment*/
+img {
+  float: left;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+/* This part contains the description about the images in few sentences.
+Padding was applied to it to make it similar to given Assignment*/
+#content {
+  background-color: white;
+  margin-left: 250px;
+  font-size: 110%;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+
+/* This is the unordered list inside the content div.
+Marker.gif was used as the list style which was provided
+by the instructor*/
+#content ul {
+  list-style: inside url('marker.gif');
+  padding: 0px;
+  margin: 10px 20px 20px 100px;
+}
+
+/* It makes changes to the font and color of
+The Pacific Trail (main words)*/
+.span {
+  font-weight: bold;
+  color: #3399CC;
+  font-size: 10px;
+}
+
+/* This is the footer of the page. It is centered using margins
+style to italics, and padding being provided to match the above
+paddings*/
+footer {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 14px;
+  padding-left: 40px;
+  margin-left: 250px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+/* This class allows changes on The Pacific Trail words*/
+.resort {
+  color: #538cc6;
+  font-weight: bold;
+}
+
+/* This was used to apply changes on the bottom part
+where it specifies the address and dummy number for
+the place*/
+#contact {
+  margin-left: 40px;
+}
